@@ -1,0 +1,155 @@
+.navbar {
+    background: #F7F7F7;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    height: 59px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5px;
+
+}
+
+
+
+.navbar-left {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    width: 100%;
+}
+
+.logo {
+    height: 37px;
+    width: 80px;
+    margin-top: 7px;
+
+}
+
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #415859;
+    display: flex;
+    margin-top: 19px;
+    margin-right: 5px;
+}
+
+.address-icon {
+    width: 12.43px;
+    height: 15px;
+    
+}
+
+.navbar-right {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    justify-content: space-between;
+}
+
+.navbar-content {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.08em;
+    margin-top: 20px;
+    color: #415859;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 300px;
+
+}
+
+.navbar-buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 230px;
+    width: 100%;
+}
+
+.download {
+    display: flex;
+    height: 38px;
+    justify-content: space-evenly;
+    border: 1px solid #415859;
+    border-radius: 5px;
+    max-width: 150px;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.download div {
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.025em;
+    color: #415859;
+    margin-top: 9px;
+
+}
+
+#playstore-icon {
+    height: 20px;
+    width: 20px;
+    margin-top: 9px;
+}
+
+#cart-icon {
+    height: 30px;
+    width: 30px;
+    margin-top: 12px;
+
+}
+
+.android-navbar-address{
+    display: none;
+}
+
+.android{
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width: 850px) {
+
+.navbar{
+    height: 83px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+ 
+}   
+
+.navbar-left{
+    display: none;
+}
+
+.navbar-right{
+    display: none;
+}
+
+.android-navbar-address{
+    display: flex ;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #415859;
+
+    margin-top: 10px;
+
+}
+
+.android{
+    display: block;
+}
+
+
+}
