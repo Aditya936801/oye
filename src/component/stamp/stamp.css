@@ -1,0 +1,26 @@
+.stamp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.stamp-content{
+    font-family: 'Montserrat';
+font-weight: 600;
+font-size: 36px;
+
+
+}
+@media only screen and (max-width:850px) {
+    .stamp-content{
+        font-family: 'Montserrat';
+font-weight: 400;
+font-size: 14px;
+    }
+
+    .stamp-image{
+        width: 80px;
+        height: 80px;
+    }
+    
+}

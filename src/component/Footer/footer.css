@@ -1,0 +1,113 @@
+.footer-pc{
+    max-width: 1920px;
+height: 646px;
+background: #343434;
+display: flex;
+flex-direction: column;
+padding: 40px 50px;
+
+}
+
+.footer-title{
+    font-family: 'Poppins';
+font-weight: 500;
+font-size: 13px;
+letter-spacing: 0.08em;
+width: 230px;
+
+color: #FFFFFF;
+text-align: left;
+margin-right: 30px;
+}
+
+.footer-detail{
+    font-family: 'Poppins';
+font-weight: 700;
+font-size: 13px;
+letter-spacing: 0.08em;
+text-align: left;
+color: #FFFFFF;
+display: flex;
+margin-right: auto;
+
+}
+
+.footer-detail div{
+    margin: 0 10px;
+
+}
+
+.footer-content{
+    display: flex;
+    margin: 30px 0;
+    justify-content: left;
+    
+    
+    
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us-title{
+    
+font-family: 'Poppins';
+font-weight: 600;
+font-size: 11.7039px;
+letter-spacing: 0.08em;
+
+color: #56FBFF;
+margin-bottom: 60px;
+
+}
+.contact-us-detail{
+    font-family: 'Poppins';
+font-weight: 400;
+font-size: 13px;
+letter-spacing: 0.08em;
+
+color: #FFFFFF;
+margin-right: auto;
+}
+
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-download-image{
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.footer-icon{
+    margin: 5px;
+}
+
+.footer-end{
+    font-family: 'Mulish';
+font-weight: 600;
+font-size: 11.7039px;
+letter-spacing: 0.08em;
+
+color: #FFFFFF;
+}
+.footer-android{
+    display:none;
+}
+
+@media only screen and (max-width:600px) {
+    .footer-pc{
+        display: none;
+    }
+
+    .footer-android{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}

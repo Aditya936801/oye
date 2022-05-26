@@ -1,0 +1,60 @@
+.CustomerReviewList{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.CustomerReviewCard{
+    width: 300px;
+height: 191px;
+background: #FFFFFF;
+box-shadow: 1px 20px 50px 1px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding:10px 20px;
+margin: 20px;
+}
+
+.Customer-Review-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #025B5D;
+    margin-right: auto;
+}
+
+.Customer-Review-comment {
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 14px;
+    
+    
+    letter-spacing: 0.02em;
+}
+
+.Customer-Review-Symbol{
+    height: 17px;
+    width: 13px;
+}
+
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .CustomerReviewCard{
+        
+    padding:0px;
+    margin: 5px;
+    }
+
+    
+}
