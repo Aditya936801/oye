@@ -1,0 +1,132 @@
+.service-offer {
+    max-width: 1923px;
+    width: 100%;
+    height: 376px;
+    background: linear-gradient(180deg, #FBD268 0%, #F1BA29 100%);
+    display: flex;
+    justify-content: space-evenly
+}
+
+.offer-image {
+    max-width: 564px;
+    height: 330px;
+}
+
+
+.offer-detail {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 47px;
+    letter-spacing: 0.175em;
+    margin-top: 60px;
+
+}
+
+.offer-sub-detail {
+    display: flex;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 33px;
+    margin-top: 20px;
+
+}
+
+.offer-line {
+    max-width: 100px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+
+}
+
+.offer-button {
+
+    max-width: 256px;
+    width: 100%;
+    height: 40px;
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    letter-spacing: 0.02em;
+
+    color: #A90000;
+
+    margin: 30px auto;
+    border: 1px solid #A90000;
+    border-radius: 28px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .offer-image {
+        max-width: 300px;
+    }
+
+    .offer-detail {
+        margin-top: 100px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .offer-sub-detail {
+        font-size: 12px;
+    }
+
+    .offer-line {
+        max-width: 50px;
+
+
+    }
+
+    .offer-button {
+
+        max-width: 150px;
+        height: 20px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .offer-image {
+        max-width: 180px;
+        height:300px
+    }
+
+    .offer-detail {
+        margin-top: 100px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .offer-sub-detail {
+        font-size: 10px;
+    }
+
+    .offer-line {
+        max-width: 30px;
+
+
+    }
+
+    .offer-button {
+        max-width: 100px;
+        height: 15px;
+        font-weight: 400;
+        font-size: 10px;
+        letter-spacing: 0.01em;
+    }
+
+    .service-offer{
+        height: 300px;
+
+    }
+
+   
+}

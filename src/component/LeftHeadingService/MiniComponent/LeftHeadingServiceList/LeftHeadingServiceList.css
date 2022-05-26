@@ -1,0 +1,46 @@
+.LeftHeadingServiceList{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.LeftHeadingServiceCard{
+    height: 147.02px;
+background: #FFFFFF;
+box-shadow: 0px 5.07432px 25.3716px 2.96002px rgba(57, 57, 57, 0.15);
+border-radius: 17.9289px;
+padding: 10px;
+max-width: 150px;
+width: 100%;
+margin: 50px 10px;
+
+}
+
+
+
+.left-image{
+width: 142.08px;
+height: 142.08px;
+margin-top: -45%;
+}
+
+.left-name{
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.left-detail{
+    font-family: 'Mulish';
+font-weight: 400;
+font-size: 15px;
+
+color: #757575;
+}
+
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}

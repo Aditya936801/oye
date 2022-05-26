@@ -1,0 +1,8 @@
+.TopHeadingServiceList{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}

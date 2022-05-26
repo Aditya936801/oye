@@ -1,0 +1,36 @@
+.TopHeadingServiceCard{
+    height: 147.02px;
+background: #FFFFFF;
+box-shadow: 0px 5.07432px 25.3716px 2.96002px rgba(57, 57, 57, 0.15);
+border-radius: 17.9289px;
+padding: 10px;
+max-width: 150px;
+width: 100%;
+margin: 50px 10px;
+
+}
+
+.special-card{
+    background: linear-gradient(48.55deg, #FFA500 -6.74%, #FFECCA 120.59%);
+    height: 147.02px;
+    box-shadow: 0px 5.07432px 25.3716px 2.96002px rgba(57, 57, 57, 0.15);
+    border-radius: 17.9289px;
+    padding: 10px;
+    max-width: 150px;
+    width: 100%;
+    margin: 50px 5px;
+
+    color: #FFFFFF;
+}
+
+.top-image{
+width: 142.08px;
+height: 142.08px;
+margin-top: -45%;
+}
+
+.top-name{
+    font-family: 'Montserrat';
+font-weight: 500;
+font-size: 20.3194px;
+}

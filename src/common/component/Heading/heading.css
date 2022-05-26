@@ -1,0 +1,20 @@
+.heading{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    
+    font-family: 'Montserrat';
+font-weight: 600;
+font-size: 36px;
+color: #025B5D;
+}
+
+.subtitle{
+    margin-top: 10px;
+    font-family: 'Montserrat';
+font-weight: 400;
+font-size: 18px;
+}

@@ -1,0 +1,11 @@
+.leftHeading-container{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 850px) {
+    .leftHeading-container{
+        flex-direction: column;
+    }
+    
+}

@@ -5,6 +5,8 @@ import { dbRef } from "../../firebase";
 import { child, get } from "firebase/database";
 import Carousel from "react-elastic-carousel";
 import AllServiceList from "./MiniComponent/AllServiceList";
+import { breakPoints } from "../../common/breakpoints";
+
 
 const AllService = () => {
   const [list, setList] = useState([]);
@@ -23,12 +25,7 @@ const AllService = () => {
         console.error(error);
       });
   }, []);
-  const breakPoints = [
-    { width: 1, itemsToShow: 1 },
-    { width: 500, itemsToShow: 2 },
-    { width: 708, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 4 },
-  ];
+ 
   return (
     <div className="all-service ">
       <div className="all-service-pc">
