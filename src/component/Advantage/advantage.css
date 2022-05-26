@@ -1,0 +1,89 @@
+.advantage{
+    margin-top: 20px;
+    
+}
+
+.advantage-pc{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+
+background: #E5E4E9;
+    
+
+}
+
+.advantage-image-pc{
+    width: 581.8px;
+height: 428px;
+}
+
+.advantage-content-pc{
+    width: 496.34px;
+height: 350px;
+margin-top: 20px;
+
+
+background: #FFFFFF;
+}
+
+.advantage-list-pc {
+    font-family: 'Roboto';
+font-weight: 600;
+font-size: 24px;
+}
+
+.advantage-android{
+    display: none;
+    
+}
+
+.advantage-title-android{
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 18px;
+color: #E8625D;
+}
+
+.advantage-list-android{
+   
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+width: 100%;
+    
+}
+
+.advantage-android-list-item{
+    display: flex;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 10px;
+    
+    color: #025B5D;
+    margin: 5px;
+}
+
+
+.advantage-image-android{
+    width: 300px;
+height: 250.5px;
+}
+
+
+.advantage-android-list-image{
+    height: 20.91px;
+}
+
+
+@media only screen and (max-width: 850px) {
+
+    .advantage-android{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .advantage-pc{
+        display: none;
+    }
+}
