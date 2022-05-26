@@ -9,3 +9,17 @@ font-weight: 400;
 font-size: 18.8354px;
 text-align: center;
 }
+
+@media only screen and (max-width:900px) {
+    .all-service-image{
+        width: 40px;
+    height: 40px;
+    }
+    
+    .all-service-name{
+     
+    font-size: 13px;
+   
+    }
+    
+}

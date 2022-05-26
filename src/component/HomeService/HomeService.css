@@ -3,17 +3,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 736px;
+    max-height: 736px;
     width: 100%;
-    background: url("../../assets/images/bg.svg") no-repeat;
+    background: url("../../assets/images/bg.svg") no-repeat  ;
+    background-size: cover;
 }
 
 .home-service-content {
     font-family: 'Montserrat';
-
     font-weight: 700;
     font-size: 48px;
-
     color: #FFFFFF;
 }
 
@@ -22,13 +21,33 @@
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 17.4521px;
-
     color: #FFFFFF;
 }
 
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
+    
+.home-service-content {
+    
+    font-weight: 600;
+    font-size: 30px;
+ 
+}
+
+.home-service-example {
+    margin-top: 10px;
+   
+    font-weight: 600;
+    font-size: 15px;
+  
+}
+
+  
+
+
+}
+@media only screen and (max-width: 515px) {
 
     .home-service-android {
         display: none;

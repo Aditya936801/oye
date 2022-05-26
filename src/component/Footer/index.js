@@ -75,14 +75,10 @@ const Footer = () => {
       </div>
 
       <div className="footer-android">
-
       <img src={home} alt="loading.." />
       <img src={booking} alt="loading.."/>
       <img src={favourite} alt="loading.." />
       <img src={account} alt="loading.." />
-
-
-      
       </div>
       
     </div>

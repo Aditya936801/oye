@@ -27,7 +27,7 @@ const ServiceCategories = ({ type }) => {
   return (
     <div>
       {type === "ProfessionalCleaningServices" && (
-        <div>
+        <div  >
           <Heading
             title="Professional Cleaning Services"
             subtitle="Premium Home Services "
@@ -36,7 +36,7 @@ const ServiceCategories = ({ type }) => {
         </div>
       )}
       {type === "MostUsedServices" && (
-        <div>
+        <div   >
           <Heading
             title="Most Used Services"
             subtitle="Premium Home Services "
@@ -45,7 +45,7 @@ const ServiceCategories = ({ type }) => {
         </div>
       )}
       {type === "TrendingServices" && (
-        <div>
+        <div   >
           <Heading
             title="Trending Services"
             subtitle="Premium Home Services "

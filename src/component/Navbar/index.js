@@ -9,31 +9,35 @@ import SearchBar from "../../common/component/SearchBar";
 const Navbar = () => {
   return (
     <div className="navbar">
-    <div className="android" >
-      <div className="android-navbar-address">
-        <img src={locationIcon} alt="loading.." className="address-icon" />
-        <div>Sector-44, Real Estate, Sector- 62, Gurugram</div>
-        <img src={dropArrow} alt="loading.." className="address-icon" />
-      </div>
-      <SearchBar/>
+      <div className="android">
+        <div className="android-navbar-address">
+          <img src={locationIcon} alt="loading.." className="address-icon" />
+          <div>Sector-44, Real Estate, Sector- 62, Gurugram</div>
+          <img src={dropArrow} alt="loading.." className="address-icon" />
+        </div>
+        <SearchBar />
       </div>
       <div className="navbar-left">
         <img src={logo} alt="loading.." className="logo" />
         <div className="address">
-          <div>
+          
             <img src={locationIcon} alt="loading.." className="address-icon" />
-            1st Floor, H 356, Block B, Sector 22, Noida, Uttar Pradesh 201301
+            <div>
+              1st Floor, H 356, Block B, Sector 22, Noida, Uttar Pradesh 201301
+            </div>
             <img src={dropArrow} alt="loading.." className="address-icon" />
-          </div>
+          
         </div>
       </div>
       <div className="navbar-right">
         <div className="navbar-content">
           <div>Blog</div>
           <div>Career</div>
-          <div>
-            Account{" "}
-            <img src={dropArrow} alt="loading.." className="address-icon" />
+          <div className="navbar-account">
+          <div  >
+          Account
+          </div>
+          <img src={dropArrow} alt="loading.." className="address-icon" />
           </div>
         </div>
         <div className="navbar-buttons">

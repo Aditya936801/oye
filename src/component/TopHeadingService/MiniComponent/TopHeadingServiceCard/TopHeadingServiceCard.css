@@ -34,3 +34,30 @@ margin-top: -45%;
 font-weight: 500;
 font-size: 20.3194px;
 }
+
+@media only screen and (max-width:900px) {
+  
+    .TopHeadingServiceCard{
+     height: 130.02px;
+    border-radius: 13.9289px;
+    
+    
+    margin: 35px 10px;
+    
+    }
+    .special-card{
+        height: 130.02px;
+        border-radius: 13.9289px;
+        margin: 35px 5px;
+    
+        color: #FFFFFF;
+    }
+
+  
+        
+        .top-name{
+        font-size: 15.3194px;
+        }
+    
+}
+

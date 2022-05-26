@@ -1,5 +1,6 @@
 .ServiceCategoriesList{
-    margin-top: 20px;
+    
+   
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -19,19 +20,19 @@
 
 
 
-.top-image {
+.service-image {
     width: 142.08px;
     height: 142.08px;
 
 }
 
-.top-name {
+.service-name {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
 }
 
-.top-detail {
+.service-detail {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
@@ -40,4 +41,28 @@
 
 .rec.rec-arrow:disabled {
     visibility: hidden;
+}
+
+@media only screen and (max-width:900px) {
+  
+    .image-container{
+     height: 113.02px;
+     width: 202px;
+    border-radius: 4.9289px;
+    
+    
+    
+    
+    }
+ 
+
+        
+        .service-name{
+        font-size: 15.3194px;
+        }
+
+        .service-detail {
+            font-size: 12px;
+        }
+    
 }

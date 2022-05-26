@@ -1,12 +1,14 @@
 .advantage{
-    margin-top: 20px;
+    margin-top: 30px;
     
 }
 
 .advantage-pc{
     display: flex;
     justify-content: space-around;
-    height: 400px;
+    align-items: center;
+    max-height: 427px;
+    padding: 10px;
 
 background: #E5E4E9;
     
@@ -14,14 +16,13 @@ background: #E5E4E9;
 }
 
 .advantage-image-pc{
-    width: 581.8px;
-height: 428px;
+    max-width: 581.8px;
+    height: 428px;
 }
 
 .advantage-content-pc{
     width: 496.34px;
 height: 350px;
-margin-top: 20px;
 
 
 background: #FFFFFF;
@@ -56,18 +57,22 @@ width: 100%;
 
 .advantage-android-list-item{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 10px;
     
     color: #025B5D;
     margin: 5px;
+    
 }
 
 
+
 .advantage-image-android{
-    width: 300px;
-height: 250.5px;
+    width: 200px;
+height: 210.5px;
 }
 
 
@@ -76,7 +81,26 @@ height: 250.5px;
 }
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
+    .advantage-image-pc{
+        width: 300.8px;
+        height: 250px;
+    }
+    
+    .advantage-content-pc{
+        width: 350.34px;
+    height: 200px;
+   
+    }
+    
+    .advantage-list-pc {
+        
+    font-size: 15px;
+    }
+
+    
+}
+@media only screen and (max-width: 515px) {
 
     .advantage-android{
         display: flex;

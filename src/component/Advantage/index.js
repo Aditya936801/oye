@@ -29,44 +29,44 @@ const Advantage = () => {
         <div className="advantage-content-android">
           <div className="advantage-title-android">Why People Choose US</div>
           <div className="advantage-list-android">
-            <div className="advantage-android-list-item" >
+            <div className="advantage-android-list-item">
               <img
                 src={gurantee}
                 alt="loading..."
                 className="advantage-android-list-image"
-              />{" "}
-              <div>30 Days Service Guarantee</div>
+              />
+              <div>Service Guarantee</div>
             </div>
-            <div className="advantage-android-list-item" >
+            <div className="advantage-android-list-item">
               <img
                 src={affordable}
                 alt="loading..."
                 className="advantage-android-list-image"
-              />{" "}
+              />
               <div>Affordable Rates</div>
             </div>
-            <div className="advantage-android-list-item" >
+            <div className="advantage-android-list-item">
               <img
                 src={gurantee}
                 alt="loading..."
                 className="advantage-android-list-image"
-              />{" "}
+              />
               <div>On Time Service</div>
             </div>
-            <div className="advantage-android-list-item" >
+            <div className="advantage-android-list-item">
               <img
                 src={gurantee}
                 alt="loading..."
                 className="advantage-android-list-image"
-              />{" "}
+              />
               <div>Verified Professionals</div>
             </div>
-            <div className="advantage-android-list-item" >
+            <div className="advantage-android-list-item">
               <img
                 src={gurantee}
                 alt="loading..."
                 className="advantage-android-list-image"
-              />{" "}
+              />
               <div>Excellent Service</div>
             </div>
           </div>

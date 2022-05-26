@@ -1,6 +1,6 @@
 .footer-pc{
     max-width: 1920px;
-height: 646px;
+max-height: 646px;
 background: #343434;
 display: flex;
 flex-direction: column;
@@ -13,11 +13,11 @@ padding: 40px 50px;
 font-weight: 500;
 font-size: 13px;
 letter-spacing: 0.08em;
-width: 230px;
+max-width: 230px;
 
 color: #FFFFFF;
 text-align: left;
-margin-right: 30px;
+margin-right: 20px;
 }
 
 .footer-detail{
@@ -100,7 +100,28 @@ color: #FFFFFF;
     display:none;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:900px) {
+    .footer-title{
+        
+    font-size: 8px;
+    
+    
+    }
+    
+    .footer-detail{
+       
+    font-size: 6px;
+    
+    
+    }
+    .footer-pc{
+      
+    padding: 20px 15px;
+    
+    }
+    
+}
+@media only screen and (max-width:515px) {
     .footer-pc{
         display: none;
     }

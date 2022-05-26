@@ -1,28 +1,32 @@
-.all-service{
-    width:100%;
-    height: 736px;
-    
-}
-.all-service-heading{
-font-family: 'Montserrat';
-font-weight: 600;
-font-size: 36px;
-margin-top: 10px;
-color: #353535;
+.all-service {
+    width: 100%;
+    max-height: 736px;
+
 }
 
-.offer{
-height: 31.32px;
-width: 180px;
-margin-left: auto;
-background: #E8625D;
-font-family: 'Mulish';
-font-weight: 800;
-font-size: 18.3333px;
-color: #FCFCFC;
+.all-service-heading {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 10px;
+    color: #353535;
 }
 
-.all-service-carousel{
+.offer {
+    height: 31.32px;
+    max-width: 120px;
+    margin-left: auto;
+    background: #E8625D;
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 15px;
+    color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.all-service-carousel {
     margin-top: 30px;
 }
 
@@ -31,43 +35,57 @@ color: #FCFCFC;
     visibility: hidden;
 }
 
-.all-service-carousel-image{
-  
-  height: 180px;
-  width: 100%;
-  margin: 0px 15px;
-  
+.all-service-carousel-image {
+    max-height: 180px;
+    width: 100%;
+
 }
 
-.all-service-android{
+.all-service-android {
     display: none;
 }
-.all-service-pc{
+
+.all-service-pc {
     display: block;
 }
 
 
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
+    .all-service-heading {
+        font-size: 25px;
+    }
+
+    .all-service-carousel-image {
+        max-height: 100px;
+
+    }
+
+
     
-    .all-service-android{
+
+
+
+}
+
+@media only screen and (max-width: 515px) {
+
+
+    .all-service-android {
         display: block;
     }
 
-    .all-service-pc{
+    .all-service-pc {
         display: none;
     }
 
-    .android-offer{
+    .android-offer {
         font-family: 'Montserrat';
         font-weight: 600;
         font-size: 14px;
         color: #025B5D;
-       text-align: left;
-       margin: 10px ;
+        text-align: left;
+        margin: 10px;
     }
 }
-
-
-

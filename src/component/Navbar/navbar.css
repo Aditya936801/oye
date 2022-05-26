@@ -13,6 +13,7 @@
 .navbar-left {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 600px;
     width: 100%;
 }
@@ -20,7 +21,7 @@
 .logo {
     height: 37px;
     width: 80px;
-    margin-top: 7px;
+  
 
 }
 
@@ -32,13 +33,16 @@
     line-height: 19px;
     color: #415859;
     display: flex;
-    margin-top: 19px;
     margin-right: 5px;
+
+    align-items: center;
+    
 }
 
 .address-icon {
     width: 12.43px;
     height: 15px;
+    margin-left: 15px;
     
 }
 
@@ -47,6 +51,7 @@
     width: 100%;
     max-width: 600px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-content {
@@ -56,17 +61,25 @@
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.08em;
-    margin-top: 20px;
+   
     color: #415859;
     justify-content: space-evenly;
+    align-items: center;
     width: 100%;
     max-width: 300px;
 
 }
 
+.navbar-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navbar-buttons {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 230px;
     width: 100%;
 }
@@ -75,34 +88,32 @@
     display: flex;
     height: 38px;
     justify-content: space-evenly;
+    align-items: center;
     border: 1px solid #415859;
     border-radius: 5px;
     max-width: 150px;
     width: 100%;
-    margin-top: 10px;
-
-}
-
-.download div {
     font-family: 'Mulish';
     font-weight: 600;
     font-size: 16px;
     letter-spacing: 0.025em;
     color: #415859;
-    margin-top: 9px;
+
 
 }
+
+
 
 #playstore-icon {
     height: 20px;
     width: 20px;
-    margin-top: 9px;
+
 }
 
 #cart-icon {
     height: 30px;
     width: 30px;
-    margin-top: 12px;
+    
 
 }
 
@@ -117,7 +128,78 @@
 
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
+
+    .navbar-left {
+        
+        max-width: 400px;
+        
+    }
+
+    .logo {
+        height: 25px;
+        width: 50px;
+      
+    
+    }
+    .address {
+      
+        font-size: 10px;
+        line-height: 10px;
+        
+        
+    }
+    
+    .address-icon {
+        width: 8.43px;
+        height: 10px;
+        margin-left: 10px;
+        
+    }
+
+    .navbar-right {
+        max-width: 300px;
+       
+    }
+
+    .navbar-content {
+        font-size: 10px;
+        letter-spacing: 0.02em;
+       
+    }
+    .navbar-buttons {
+       
+        max-width: 150px;
+       
+    }
+
+    .download {
+        display: flex;
+        height: 25px;
+        max-width: 100px;
+        font-weight: 400;
+        font-size: 10px;
+        letter-spacing: 0.015em;
+        
+    
+    }
+
+    #playstore-icon {
+        height: 12.5px;
+        width: 12.5px;
+    
+    }
+    
+    #cart-icon {
+        height: 20px;
+        width: 20px;
+        
+    
+    }
+
+
+}
+@media only screen and (max-width: 515px) {
 
 .navbar{
     height: 83px;

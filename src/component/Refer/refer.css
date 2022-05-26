@@ -8,6 +8,9 @@
 }
 .refer-section{
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sub-heading{
@@ -68,7 +71,43 @@ color: #025B5D;
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
+    .sub-heading{
+    
+        
+        margin-top: 10px;
+        
+        
+        
+        
+        }
+        .refer-box {
+           
+            border-radius: 2px;
+           
+            width: 255.95px;
+            height: 20.06px;
+            
+           
+        
+        }
+        
+        #refer-input-box {
+           
+            font-size: 10px;
+        }
+        .phone1-image{
+           width: 200px;
+           margin-top: 70px;
+        }
+        .phone2-image{
+            display: none;
+            
+        }
+
+   
+}
+@media only screen and (max-width: 515px) {
 
     .refer{
         display: none;

@@ -44,3 +44,33 @@ color: #757575;
 .rec.rec-arrow:disabled {
     visibility: hidden;
 }
+
+
+@media only screen and (max-width:515px) {
+    .LeftHeadingServiceCard{
+        
+    border-radius: 7.9289px;
+    
+    margin: 50px 10px;
+    
+    }
+    
+    
+    
+    
+    
+    .left-name{
+        
+        font-size: 10px;
+    }
+    
+    .left-detail{
+       
+    font-size: 8px;
+    
+   
+    }
+
+   
+  
+}

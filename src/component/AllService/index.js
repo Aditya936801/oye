@@ -31,20 +31,24 @@ const AllService = () => {
       <div className="all-service-pc">
         <div className="all-service-heading">What are you looking for?</div>
         <div className="offer">
-          FLAT OFF
+        <div>
+        FLAT OFF
+        </div>
           <img src={whitearrow} alt="loading.." />
         </div>
         <AllServiceList list={list} />
         <Carousel breakPoints={breakPoints} className="all-service-carousel">
           {imageList?.map((el, idx) => {
             return (
-              <styled key={idx}>
+              
+              
                 <img
+                key={idx}
                   src={el}
                   alt="loading"
                   className="all-service-carousel-image"
                 />
-              </styled>
+             
             );
           })}
         </Carousel>
@@ -54,13 +58,14 @@ const AllService = () => {
       <Carousel breakPoints={breakPoints} className="all-service-carousel">
           {imageList?.map((el, idx) => {
             return (
-              <styled key={idx}>
+             
                 <img
+                key={idx}
                   src={el}
                   alt="loading"
                   className="all-service-carousel-image"
                 />
-              </styled>
+             
             );
           })}
         </Carousel>

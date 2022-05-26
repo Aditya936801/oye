@@ -36,8 +36,8 @@ const Home = ()=> {
     <Refer/>
     <Stamp/>
     <Footer/>
-
-
+   
+    
     </div>
   )
 }

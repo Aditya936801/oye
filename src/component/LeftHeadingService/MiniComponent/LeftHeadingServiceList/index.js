@@ -3,10 +3,10 @@ import Carousel from "react-elastic-carousel";
 import { breakPoints } from "../../../../common/breakpoints";
 
 
-const TopHeadingServiceList = ({ list }) => {
+const LeftHeadingServiceList = ({ list }) => {
   return (
     <div className="LeftHeadingServiceList">
-    <Carousel breakPoints={breakPoints} className="all-service-carousel">
+    <Carousel breakPoints={breakPoints} >
 
       {list?.map((el, idx) => {
         return (
@@ -24,4 +24,4 @@ const TopHeadingServiceList = ({ list }) => {
   );
 };
 
-export default TopHeadingServiceList;
+export default LeftHeadingServiceList;
